@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'paypal-sdk/merchant/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "paypal-sdk-merchant"
+  gem.name          = "paypal-sdk-merchant-jk"
   gem.version       = PayPal::SDK::Merchant::VERSION
   gem.authors       = ["PayPal"]
   gem.email         = ["DL-PP-Platform-Ruby-SDK@paypal.com"]
